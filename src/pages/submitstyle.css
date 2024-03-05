@@ -1,0 +1,92 @@
+.file-upload-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10%; /* Adjust this value to position the wrapper vertically */
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructions {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #eef2f7;
+    border-left: 4px solid #007bff;
+    font-size: 0.9rem;
+  }
+  
+  .instructions p {
+    margin-bottom: 10px;
+  }
+  
+  .instructions strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .instructions ul {
+    padding-left: 20px;
+  }
+  
+  .file-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .file-input {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    width: 70%;
+    cursor: pointer;
+  }
+  
+  .upload-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+ /* ... existing styles ... */
+
+.next-button,
+.generate-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:hover,
+.generate-button:hover {
+  background-color: #0056b3;
+}
+
+.style-dropdown {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.style-selection-wrapper {
+  text-align: center;
+  /* Add more styles to position and style this wrapper */
+}

@@ -1,0 +1,177 @@
+
+body {
+    background-image: url("header-bgn.jpg");
+  }
+
+
+
+
+.create-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+  }
+
+
+  .ulvi {
+    padding-top: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .create-content h1 {
+    font-size: 3rem; /* Big font for the question */
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between buttons as needed */
+    align-items: center;
+
+  }
+  
+  .create-button {
+    font-size: 1.5rem; /* Large font for the buttons */
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #007bff; /* A blue shade for the button background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Ensure the body has no margin */
+  body {
+    margin: 0;
+  }
+  
+
+  /* StyleSelection.css */
+.style-selection-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent white background */
+  box-sizing: border-box;
+}
+
+.style-selection-card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px; /* Adjust the width as needed */
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.style-dropdown {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.generate-btn {
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-btn:hover {
+  background-color: #0056b3;
+}
+/* StyleSelection.css */
+.style-selection-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent white background */
+  box-sizing: border-box;
+}
+
+.style-selection-card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px; /* Adjust the width as needed */
+  position: relative;
+  bottom: 140px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.style-dropdown {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.generate-btn {
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 60%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
